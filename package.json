@@ -1,0 +1,20 @@
+{
+  "name": "platino",
+  "version": "1.0.0",
+  "description": "El bot oficial de Insomnia",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "bun run --watch src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "platino"
+  },
+  "author": "Anfitrion",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
